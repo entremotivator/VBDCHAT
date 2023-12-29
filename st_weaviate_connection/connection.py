@@ -2,7 +2,9 @@ from typing import Optional
 
 import pandas as pd
 import weaviate
-from streamlit.connections import BaseConnection
+
+from streamlit.legacy_caching import BaseConnection
+
 from streamlit.runtime.caching import cache_data
 from weaviate.client import Client
 
