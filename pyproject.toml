@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "st_weaviate_connection"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 weaviate-client = "^3.22.1"
 streamlit = "^1.25.0"
 
